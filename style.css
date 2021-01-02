@@ -37,10 +37,18 @@ body {
     padding: 10px;
 }
 
+.names>p:nth-child(n) {
+    font-size: 2vw;
+}
+
 .names>p:nth-child(1) {
-    padding: 10px;
     font-size: 5vw;
     font-family: 'Cinzel Decorative', cursive;
+}
+
+.iconsize i {
+    font-size: 3vw;
+    padding: 0 10px;
 }
 
 .intro>p {
@@ -99,23 +107,22 @@ body {
 
 .footers {
     color: white;
-    font-size: 1.5vw;
     background-color: rgba(255, 93, 128, 0.897);
     overflow: hidden;
     width: 100vw;
-    padding: 20px;
+    padding: 20px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .footers>div:nth-child(1) {
     float: left;
-    width: 30%;
+    width: 40%;
     font-size: 1vw;
 }
 
 .footers>div:nth-child(2) {
     float: left;
-    width: 40%;
+    width: 30%;
     padding: 30px 0;
     font-size: 1vw;
 }
@@ -131,11 +138,11 @@ body {
 }
 
 .fab {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     padding: 0 5px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     .relatives section:nth-child(n) {
         background-color: rgb(255, 170, 170);
         display: inline-block;
@@ -148,5 +155,13 @@ body {
     .img {
         width: 20vh;
         height: 20vh;
+    }
+    .names>p:nth-child(n) {
+        font-size: 2vh;
+    }
+    .footers>div:nth-child(1),
+    .footers>div:nth-child(2),
+    .footers>div:nth-child(3) {
+        font-size: 1.2vh;
     }
 }
