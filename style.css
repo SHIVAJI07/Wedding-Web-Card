@@ -142,7 +142,7 @@ body {
     padding: 0 5px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width:700px) {
     .relatives section:nth-child(n) {
         background-color: rgb(255, 170, 170);
         display: inline-block;
