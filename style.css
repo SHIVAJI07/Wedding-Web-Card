@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 217, 217, 0.548);
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.invite {
+    font-size: 7vw;
+    color: #ff5c5c;
+    padding: 6vw 10vw;
+}
+
+.intro {
+    width: 100%;
+    overflow: hidden;
+}
+
+.intro>div:nth-child(1) {
+    float: left;
+    width: 50%;
+}
+
+.intro>div:nth-child(2) {
+    float: left;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.name {
+    padding: 10px;
+}
+
+.names>p:nth-child(1) {
+    padding: 10px;
+    font-size: 5vw;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.intro>p {
+    font-size: 2vw;
+}
+
+.dot {
+    border-right: 4px dotted #ff7694;
+}
+
+.img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    border: 10px solid #ff7694;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.groom {
+    background: url(image/5.jpg) center;
+    background-size: cover;
+}
+
+.bride {
+    background: url(image/4.jpg) center;
+    background-size: cover;
+}
+
+.sliding {
+    margin: 5vw;
+}
+
+.relatives {
+    width: 100vw;
+    display: inline-block;
+}
+
+.relatives section:nth-child(n) {
+    background-color: rgb(255, 170, 170);
+    display: inline-block;
+    width: 20%;
+    margin: 1vw;
+}
+
+.card {
+    border: 0px;
+}
+
+.venue {
+    background-color: rgb(255, 170, 170);
+    margin: 8vw;
+    padding: 20px;
+    border: 15px double white;
+}
+
+.footers {
+    color: white;
+    font-size: 1.5vw;
+    background-color: rgba(255, 93, 128, 0.897);
+    overflow: hidden;
+    width: 100vw;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footers>div:nth-child(1) {
+    float: left;
+    width: 30%;
+    font-size: 1vw;
+}
+
+.footers>div:nth-child(2) {
+    float: left;
+    width: 40%;
+    padding: 30px 0;
+    font-size: 1vw;
+}
+
+.footers>div:nth-child(3) {
+    float: left;
+    width: 30%;
+    font-size: 1.2vw;
+}
+
+.fot p:nth-child(1) {
+    font-size: 2.5vw;
+}
+
+.fab {
+    font-size: 1.2vw;
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .relatives section:nth-child(n) {
+        background-color: rgb(255, 170, 170);
+        display: inline-block;
+        width: 40%;
+        margin: 2vw;
+    }
+    .intro p {
+        font-size: 1.5vh;
+    }
+    .img {
+        width: 20vh;
+        height: 20vh;
+    }
+}
